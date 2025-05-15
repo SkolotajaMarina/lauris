@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Balodis</title>
+  <style>
+    .container {
+      position: relative;
+      width: 1440px;
+      height: 1024px;
+      margin: 0 auto;
+    }
+
+    .box {
+      width: 1440px;
+      height: 1024px;
+      background-color: #DDA15E;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .top-rectangle {
+      width: 1440px;
+      height: 163px;
+      background-color: #BC6C25;
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 96px;
+      font-weight: bold;
+    }
+
+    .small-circle {
+      width: 155px;
+      height: 155px;
+      background-color: #fff;
+      border-radius: 50%;
+      position: absolute;
+      top: 4px;
+      left: 10px;
+      overflow: hidden;
+      border: 2px solid #BC6C25;
+    }
+
+    .small-circle img {
+      width: 100%;
+      height: auto;
+    }
+
+    .cube {
+      width: 140px;
+      height: 140px;
+      background-color: #FEFAE0;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .line {
+      width: 121px;
+      height: 18.39px;
+      background-color: black;
+      margin: 5px 0;
+    }
+
+    .circle-box {
+      width: 400px;
+      height: 400px;
+      background-color: #FEFAE0;
+      border-radius: 50%;
+      position: absolute;
+      top: 250px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    .circle-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    .description-text {
+      position: absolute;
+      top: 700px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-family: Calibri, sans-serif;
+      font-size: 32px;
+      text-align: center;
+      max-width: 800px;
+      color: #000;
+    }
+
+    /* Add styles for the clickable cube */
+    .clickable-cube {
+      width: 140px;
+      height: 140px;
+      background-color: #FEFAE0;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer; /* Makes it look clickable */
+      text-decoration: none; /* Remove any underline from the link */
+    }
+
+    .clickable-cube .line {
+      width: 121px;
+      height: 18.39px;
+      background-color: black;
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box"></div>
+    <div class="top-rectangle">Par Logo</div>
+    <div class="small-circle">
+      <img src="Balodis.jpg" alt="Circle Image" />
+    </div>
+    
+    <!-- Wrap the cube with an anchor tag to make it clickable -->
+    <a href="Portfolio_Finish.html" class="clickable-cube">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </a>
+
+    <div class="circle-box">
+      <img src="Balodis.jpg" alt="Logo" />
+    </div>
+    <div class="description-text">
+      Logotipa un tērpa misija simbolizē Ilgtspējibu - samazināt negatīvo ietekmi uz dabu, pārvēršot pārstrādājamus materiālus modes tērpā, lai dabā nerastos piesārņojums.
+    </div>
+  </div>
+</body>
+</html>
+
+
