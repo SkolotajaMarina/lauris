@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Balodis</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #dda15e;
+    }
+
+    .container {
+      max-width: 100%;
+      min-height: 100vh;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    .top-rectangle {
+      width: 100%;
+      height: 15vh;
+      background-color: #bc6c25;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 6vw;
+      font-weight: bold;
+    }
+
+    .small-circle {
+      width: 15vw;
+      height: 15vw;
+      max-width: 155px;
+      max-height: 155px;
+      background-color: #fff;
+      border-radius: 50%;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      overflow: hidden;
+      border: 2px solid #bc6c25;
+    }
+
+    .small-circle img {
+      width: 100%;
+      height: auto;
+    }
+
+    .circle {
+      width: 40vw;
+      height: 40vw;
+      max-width: 295px;
+      max-height: 295px;
+      background-color: #fff;
+      border-radius: 50%;
+      margin: 40px auto 20px auto;
+      overflow: hidden;
+      border: 2px solid #bc6c25;
+    }
+
+    .circle img {
+      width: 100%;
+      height: auto;
+    }
+
+    .cube {
+      width: 10vw;
+      height: 10vw;
+      max-width: 140px;
+      max-height: 140px;
+      background-color: #fefae0;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .line {
+      width: 8vw;
+      height: 1.5vh;
+      max-width: 121px;
+      max-height: 18px;
+      background-color: black;
+      margin: 5px 0;
+    }
+
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      margin: 20px auto;
+      width: 90%;
+      max-width: 420px;
+    }
+
+    a.button {
+      display: block;
+      width: 100%;
+      background-color: #fefae0;
+      color: black;
+      text-align: center;
+      padding: 15px;
+      text-decoration: none;
+      border: 2px solid black;
+      border-radius: 5px;
+      font-size: 5vw;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    a.button:hover {
+      background-color: #bc6c25;
+      color: white;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #f1f1f1;
+      color: grey;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+
+    @media (min-width: 768px) {
+      .top-rectangle {
+        font-size: 48px;
+      }
+
+      a.button {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="top-rectangle">Saturs</div>
+
+    <div class="small-circle">
+      <img src="Balodis.jpg" alt="Mazais attēls" />
+    </div>
+
+    <div class="cube">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+
+    <div class="circle">
+      <img src="Balodis.jpg" alt="Lielais attēls" />
+    </div>
+
+    <!-- Pogas zem attēla -->
+    <div class="button-container">
+      <a href="Portfolio_Finish_ParDizaineri.html" class="button">Par Dizaineri</a>
+      <a href="Portfolio_Finish_ParDizainu.html" class="button">Dizaina tērps</a>
+      <a href="Portfolio_Finish_Logo.html" class="button">Par Logo</a>
+    </div>
+  </div>
+
+  <footer>
+    Mājaslapas izstrādātāja: Lauris Cimdiņš © 2025
+  </footer>
+</body>
+</html>

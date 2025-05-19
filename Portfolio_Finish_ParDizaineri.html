@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Balodis</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Calibri, sans-serif;
+      background-color: #DDA15E;
+      color: black;
+    }
+
+    .top-rectangle {
+      width: 100%;
+      background-color: #BC6C25;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 6vw;
+      font-weight: bold;
+      padding: 20px 0;
+      position: relative;
+    }
+
+    .small-circle {
+      width: 80px;
+      height: 80px;
+      background-color: #fff;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 2px solid #BC6C25;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+    }
+
+    .small-circle img {
+      width: 100%;
+      height: auto;
+    }
+
+    .cube {
+      width: 60px;
+      height: 60px;
+      background-color: #FEFAE0;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+    }
+
+    .line {
+      width: 30px;
+      height: 4px;
+      background-color: black;
+      margin: 3px 0;
+    }
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .photorectangle,
+    .photobottom {
+      background-color: #DDA15E;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+    }
+
+    .photorectangle img,
+    .photobottom img {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+    }
+
+    .top-image-text,
+    .bottom-image-text {
+      text-align: center;
+      font-size: 4vw;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    @media (min-width: 768px) {
+      .top-rectangle {
+        font-size: 48px;
+      }
+
+      .top-image-text,
+      .bottom-image-text {
+        font-size: 24px;
+      }
+
+      .small-circle {
+        width: 155px;
+        height: 155px;
+      }
+
+      .cube {
+        width: 140px;
+        height: 140px;
+      }
+
+      .line {
+        width: 121px;
+        height: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="top-rectangle">
+    Par Dizaineri
+    <div class="small-circle">
+      <img src="Balodis.jpg" alt="Circle Image" />
+    </div>
+    <a href="index.html" class="cube">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </a>
+  </div>
+
+  <div class="content">
+    <div class="photorectangle">
+      <img src="Balodis3.jpg" alt="Top image" />
+    </div>
+
+    <div class="top-image-text">
+      Kas slepjas zem noslēpumainās baloža maskas?<br><br>
+      Kurš to būtu domājis, ka zem baloža maskas slēpjas vēl viens balodis?<br>
+      Toties šis balodis nav tikai parasts balodis, bet gan Niks Balodis.
+    </div>
+
+    <div class="bottom-image-text">
+      Niks Balodis ir 2024./2025. mācību gada 10.d klases skolnieks, Radošo Industriju novirzienā. Viņš ir autors un modelis šim izcilajam dizainam, kas apkopo tērpa mērķi – radīt dizainu, kas mazina piesārņojumu.<br><br>
+      Viņš piedalās arī tautas dejas kolektīva "Vizbulīte" sastāvā. Brīvo laiku pavada spēlējot volejbolu un apmeklējot spēka zāli.
+    </div>
+
+    <div class="photobottom">
+      <img src="BalodisOG.jpg" alt="Bottom image" />
+    </div>
+  </div>
+</body>
+</html>
+

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Balodis</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Calibri, sans-serif;
+      background-color: #DDA15E;
+    }
+
+    .top-rectangle {
+      width: 100%;
+      background-color: #BC6C25;
+      padding: 20px 10px;
+      text-align: center;
+      color: white;
+      font-size: 6vw;
+      font-weight: bold;
+    }
+
+    .small-circle {
+      width: 80px;
+      height: 80px;
+      background-color: #fff;
+      border-radius: 50%;
+      border: 2px solid #BC6C25;
+      overflow: hidden;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+    }
+
+    .small-circle img {
+      width: 100%;
+      height: auto;
+    }
+
+    .cube {
+      width: 60px;
+      height: 60px;
+      background-color: #FEFAE0;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+    }
+
+    .line {
+      width: 40px;
+      height: 5px;
+      background-color: black;
+      margin: 3px 0;
+    }
+
+    .content-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+      gap: 30px;
+    }
+
+    .photo-block {
+      max-width: 400px;
+      background-color: #DDA15E;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 15px;
+      box-sizing: border-box;
+    }
+
+    .photo-block img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .image-text {
+      margin-top: 15px;
+      font-size: 18px;
+      text-align: center;
+      line-height: 1.5;
+    }
+
+    @media (max-width: 768px) {
+      .top-rectangle {
+        font-size: 8vw;
+      }
+
+      .image-text {
+        font-size: 16px;
+      }
+
+      .cube {
+        width: 50px;
+        height: 50px;
+      }
+
+      .line {
+        width: 30px;
+        height: 4px;
+      }
+
+      .small-circle {
+        width: 60px;
+        height: 60px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="top-rectangle">Tērpa Dizains</div>
+
+  <div class="small-circle">
+    <img src="Balodis.jpg" alt="Balodis portrets">
+  </div>
+
+  <a href="index.html" class="cube">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+  </a>
+
+  <div class="content-wrapper">
+    <div class="photo-block">
+      <img src="Balodis1.jpg" alt="Tērpa attēls 1">
+      <div class="image-text">
+        Putns, miera un harmonijas simbols, pastnieks, mīļvārdīņš, personvārds. Un tas viss iemieso vārdu "BALODIS". Arī es esmu Balodis. Niks Balodis.
+      </div>
+    </div>
+
+    <div class="photo-block">
+      <img src="Balodis2.jpg" alt="Tērpa attēls 2">
+      <div class="image-text">
+        Vēstījums manai maskai ir ilgtspēja – ne vien izvēlētajos materiālos, bet arī dzimtas turpinājumā. Balodis man ir ļoti nozīmīgs, jo tas ir mans uzvārds un atgādina par cilvēkiem ģimenes lokā. Vēlos, lai tālākie ģimenes koka zari veidotos tieši ar šo uzvārdu. Lai radītu masku, es izmantoju kartonu, žurnālus, līmlenti, krāsas un līmi.
+      </div>
+    </div>
+  </div>
+</body>
+</html>
